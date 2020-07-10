@@ -78,7 +78,7 @@ const Home = () => {
        },
       
     ]);
-
+    // Dimensions cihazın ekran boyutunu getiren metod
     const carouselRef = useRef(null);
     const {width, height} = Dimensions.get('window');
     const renderItem = ({item, index}) => {
